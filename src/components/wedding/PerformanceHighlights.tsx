@@ -32,8 +32,14 @@ const PerformanceHighlights = () => {
                 </div>
               </CarouselItem>
               <CarouselItem>
-                <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
-                  <p className="text-text-dark">Video content coming soon</p>
+                <div className="aspect-video bg-black rounded-lg flex items-center justify-center overflow-hidden">
+                  <video 
+                    className="w-full h-full object-cover"
+                    controls
+                    src="/showreel-2.mp4"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </CarouselItem>
               <CarouselItem>
