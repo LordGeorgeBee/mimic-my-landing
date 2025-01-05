@@ -8,12 +8,12 @@ import {
 
 const PerformanceHighlights = () => {
   return (
-    <div className="bg-gradient-to-b from-accent-light to-secondary py-20 px-4">
+    <div className="bg-gradient-to-b from-primary-light to-secondary py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-primary text-center mb-6">
+        <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-text-light text-center mb-6">
           Experience the Magic
         </h2>
-        <p className="text-lg md:text-xl mb-8 text-primary max-w-2xl mx-auto text-center">
+        <p className="text-lg md:text-xl mb-8 text-text-light/90 max-w-2xl mx-auto text-center">
           Watch Olivia perform and imagine how she could make your special day even more memorable.
         </p>
         
@@ -22,22 +22,22 @@ const PerformanceHighlights = () => {
             <CarouselContent>
               <CarouselItem>
                 <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
-                  <p className="text-primary">Video content coming soon</p>
+                  <p className="text-text-light">Video content coming soon</p>
                 </div>
               </CarouselItem>
               <CarouselItem>
                 <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
-                  <p className="text-primary">Video content coming soon</p>
+                  <p className="text-text-light">Video content coming soon</p>
                 </div>
               </CarouselItem>
               <CarouselItem>
                 <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
-                  <p className="text-primary">Video content coming soon</p>
+                  <p className="text-text-light">Video content coming soon</p>
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="bg-white text-primary hover:bg-accent-light hover:text-white border-primary" />
-            <CarouselNext className="bg-white text-primary hover:bg-accent-light hover:text-white border-primary" />
+            <CarouselPrevious className="bg-text-light text-primary hover:bg-primary-light hover:text-text-light border-primary" />
+            <CarouselNext className="bg-text-light text-primary hover:bg-primary-light hover:text-text-light border-primary" />
           </Carousel>
         </div>
       </div>

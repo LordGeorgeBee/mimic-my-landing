@@ -27,16 +27,23 @@ export default {
         primary: {
           DEFAULT: "#987554",
           hover: "#664229",
+          light: "#B99976",
         },
         secondary: {
           DEFAULT: "#E5D3B3",
           foreground: "#987554",
+          dark: "#664229",
         },
         accent: {
           light: "#B99976",
           DEFAULT: "#D2B48C",
           dark: "#664229",
         },
+        text: {
+          light: "#FFFFFF",
+          dark: "#664229",
+          muted: "#987554",
+        }
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
