@@ -8,7 +8,7 @@ import {
 
 const PerformanceHighlights = () => {
   return (
-    <div className="bg-gradient-to-b from-primary-light to-secondary py-20 px-4">
+    <div className="bg-accent py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-text-light text-center mb-6">
           Experience the Magic

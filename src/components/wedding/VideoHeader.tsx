@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const VideoHeader = () => {
   return (
     <div className="relative h-screen">
-      <div className="absolute inset-0 bg-accent-dark/60">
+      <div className="absolute inset-0 bg-primary">
         <div className="h-full w-full bg-black/40" />
       </div>
       
@@ -15,7 +15,7 @@ const VideoHeader = () => {
           Watch Olivia perform and imagine how she could make your special day even more memorable.
         </p>
         <Button 
-          className="bg-primary-light hover:bg-primary text-text-light px-8 py-6 text-lg transition-all duration-300 flex items-center gap-2"
+          className="bg-accent hover:bg-accent-dark text-text-light px-8 py-6 text-lg transition-all duration-300 flex items-center gap-2"
         >
           Get in Touch
           <span className="text-xl">→</span>
@@ -23,7 +23,7 @@ const VideoHeader = () => {
       </div>
 
       <div className="fixed top-4 right-4 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-sm z-50">
-        <span className="text-primary-light">Wedding</span>
+        <span className="text-accent">Wedding</span>
         <span className="mx-2 text-text-light">|</span>
         <span className="text-text-light/80 cursor-pointer hover:text-text-light transition-colors" onClick={() => window.location.href = '/funerals'}>
           Funeral
