@@ -20,10 +20,10 @@ const Weddings = () => {
         
         <div className="relative h-full flex flex-col items-center justify-center px-4 text-center">
           <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl mb-6">
-            Olivia Flemming Smith
+            Experience the Magic
           </h1>
-          <p className="text-lg md:text-xl mb-8 text-gray-200">
-            Timeless Vocal Elegance for Your Special Moments
+          <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl">
+            Watch Olivia perform and imagine how she could make your special day even more memorable.
           </p>
           <Button 
             className="bg-[#8B6F47] hover:bg-[#9F815A] text-white px-8 py-6 text-lg transition-all duration-300 flex items-center gap-2"
