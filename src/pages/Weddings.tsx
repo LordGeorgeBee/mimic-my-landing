@@ -73,7 +73,7 @@ const Weddings = () => {
       </div>
 
       {/* Performance Highlights Section */}
-      <div className="bg-gradient-to-b from-[#F5F1EE] to-[#E5D3B3] py-20 px-4">
+      <div className="bg-gradient-to-b from-[#987554] to-[#E5D3B3] py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-[#8B6F47] text-center mb-6">
             Experience the Magic
