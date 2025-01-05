@@ -10,6 +10,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import Gallery from "@/components/Gallery";
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Weddings = () => {
   return (
@@ -221,6 +222,9 @@ const Weddings = () => {
 
       {/* Contact Section */}
       <ContactSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
