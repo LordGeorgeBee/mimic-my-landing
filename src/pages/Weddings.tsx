@@ -72,9 +72,12 @@ const Weddings = () => {
       {/* Performance Highlights Section */}
       <div className="bg-[#F5F1EE] py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-playfair text-4xl md:text-5xl text-[#8B6F47] text-center mb-12">
-            Performance Highlights
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-[#8B6F47] text-center mb-6">
+            Experience the Magic
           </h2>
+          <p className="text-lg md:text-xl mb-8 text-[#8B6F47] max-w-2xl mx-auto text-center">
+            Watch Olivia perform and imagine how she could make your special day even more memorable.
+          </p>
           
           <div className="relative">
             <Carousel className="w-full max-w-4xl mx-auto">
