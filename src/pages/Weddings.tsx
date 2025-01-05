@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Music, Heart, Star } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -97,6 +98,64 @@ const Weddings = () => {
               <CarouselPrevious className="bg-white text-[#8B6F47] hover:bg-[#8B6F47] hover:text-white border-[#8B6F47]" />
               <CarouselNext className="bg-white text-[#8B6F47] hover:bg-[#8B6F47] hover:text-white border-[#8B6F47]" />
             </Carousel>
+          </div>
+        </div>
+      </div>
+
+      {/* Services Section */}
+      <div className="bg-[#F5DEB3] py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#8B6F47] text-center mb-16">
+            Services
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Memorial Services Card */}
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
+              <div className="flex justify-center mb-6">
+                <Music className="w-12 h-12 text-[#8B6F47]" />
+              </div>
+              <h3 className="font-playfair text-2xl text-[#8B6F47] mb-4">
+                Memorial Services
+              </h3>
+              <p className="text-[#8B6F47] leading-relaxed">
+                Offering a selection of dignified and moving musical tributes for memorial 
+                services. From timeless hymns to classical pieces, I provide heartfelt 
+                performances that honor your loved ones with grace and reverence.
+              </p>
+            </div>
+
+            {/* Celebration of Life Card */}
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
+              <div className="flex justify-center mb-6">
+                <Heart className="w-12 h-12 text-[#8B6F47]" />
+              </div>
+              <h3 className="font-playfair text-2xl text-[#8B6F47] mb-4">
+                Celebration of Life
+              </h3>
+              <p className="text-[#8B6F47] leading-relaxed">
+                Creating meaningful musical moments for celebration of life ceremonies. I 
+                work closely with families to select pieces that celebrate and commemorate 
+                their loved one's journey, bringing comfort and solace through carefully 
+                chosen musical selections.
+              </p>
+            </div>
+
+            {/* Religious Services Card */}
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
+              <div className="flex justify-center mb-6">
+                <Star className="w-12 h-12 text-[#8B6F47]" />
+              </div>
+              <h3 className="font-playfair text-2xl text-[#8B6F47] mb-4">
+                Religious Services
+              </h3>
+              <p className="text-[#8B6F47] leading-relaxed">
+                Experienced in performing appropriate musical selections for various religious 
+                and cultural traditions. Whether traditional hymns or classical pieces, I 
+                ensure each performance respects and enhances the spiritual significance of 
+                the service.
+              </p>
+            </div>
           </div>
         </div>
       </div>
