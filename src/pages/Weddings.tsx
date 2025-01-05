@@ -168,7 +168,7 @@ const Weddings = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="bg-[#F5E6E0] py-20 px-4">
+      <div className="bg-secondary py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-playfair text-4xl md:text-5xl text-[#8B6F47] text-center mb-16">
             Testimonials
