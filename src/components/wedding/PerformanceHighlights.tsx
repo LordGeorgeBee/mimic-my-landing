@@ -36,7 +36,7 @@ const PerformanceHighlights = () => {
                   <video 
                     className="w-full h-full object-cover"
                     controls
-                    src="../../../showreel-2.mp4"
+                    src="/showreel-2.mp4"
                   >
                     Your browser does not support the video tag.
                   </video>
