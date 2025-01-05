@@ -23,7 +23,7 @@ const Weddings = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Memorial Services Card */}
-            <div className="bg-secondary rounded-lg p-8 text-center shadow-lg">
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
               <div className="flex justify-center mb-6">
                 <Music className="w-12 h-12 text-primary" />
               </div>
@@ -38,7 +38,7 @@ const Weddings = () => {
             </div>
 
             {/* Celebration of Life Card */}
-            <div className="bg-secondary rounded-lg p-8 text-center shadow-lg">
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
               <div className="flex justify-center mb-6">
                 <Heart className="w-12 h-12 text-primary" />
               </div>
@@ -54,7 +54,7 @@ const Weddings = () => {
             </div>
 
             {/* Religious Services Card */}
-            <div className="bg-secondary rounded-lg p-8 text-center shadow-lg">
+            <div className="bg-white rounded-lg p-8 text-center shadow-lg">
               <div className="flex justify-center mb-6">
                 <Star className="w-12 h-12 text-primary" />
               </div>
