@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
 
 const Weddings = () => {
   return (
@@ -156,6 +157,56 @@ const Weddings = () => {
                 the service.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Testimonials Section */}
+      <div className="bg-[#F5E6E0] py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#8B6F47] text-center mb-16">
+            Testimonials
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <Card className="bg-white shadow-lg">
+              <CardContent className="p-8">
+                <p className="text-[#8B6F47] italic mb-6 text-lg leading-relaxed">
+                  Olivia's voice brought profound comfort during our difficult time. Her rendition of 'Ave Maria' was absolutely beautiful.
+                </p>
+                <div>
+                  <h3 className="font-semibold text-[#8B6F47] text-lg">The Thompson Family</h3>
+                  <p className="text-gray-500">Memorial Service</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 2 */}
+            <Card className="bg-white shadow-lg">
+              <CardContent className="p-8">
+                <p className="text-[#8B6F47] italic mb-6 text-lg leading-relaxed">
+                  Her performance added such dignity and grace to my mother's service. We couldn't have asked for a more perfect tribute.
+                </p>
+                <div>
+                  <h3 className="font-semibold text-[#8B6F47] text-lg">Sarah Williams</h3>
+                  <p className="text-gray-500">Celebration of Life</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 3 */}
+            <Card className="bg-white shadow-lg">
+              <CardContent className="p-8">
+                <p className="text-[#8B6F47] italic mb-6 text-lg leading-relaxed">
+                  The musical selections were perfectly chosen and performed with such sensitivity. Olivia helped make a difficult day more bearable.
+                </p>
+                <div>
+                  <h3 className="font-semibold text-[#8B6F47] text-lg">Robert & Mary Johnson</h3>
+                  <p className="text-gray-500">Memorial Service</p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
