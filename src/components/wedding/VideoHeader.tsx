@@ -3,8 +3,17 @@ import { Button } from "@/components/ui/button";
 const VideoHeader = () => {
   return (
     <div className="relative h-screen">
-      <div className="absolute inset-0 bg-primary">
-        <div className="h-full w-full bg-black/40" />
+      <div className="absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/header-showreel.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-black/40" />
       </div>
       
       <div className="relative h-full flex flex-col items-center justify-center px-4 text-center">
