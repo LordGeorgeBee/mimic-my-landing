@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const ContactSection = () => {
   return (
-    <div className="bg-secondary py-20 px-4">
+    <div className="bg-[#f1ebe3] py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-playfair text-4xl md:text-5xl text-primary mb-6">
           Contact Me
