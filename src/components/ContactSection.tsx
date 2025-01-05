@@ -18,7 +18,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
           <Button 
             variant="secondary"
-            className="bg-accent-light hover:bg-accent text-white py-6 text-lg flex items-center justify-center gap-2"
+            className="bg-accent-light hover:bg-accent text-text-light py-6 text-lg flex items-center justify-center gap-2 rounded-lg shadow-md"
             onClick={() => window.location.href = 'mailto:contact@example.com'}
           >
             <Mail className="w-5 h-5" />
@@ -27,7 +27,7 @@ const ContactSection = () => {
           
           <Button 
             variant="secondary"
-            className="bg-accent hover:bg-accent-light text-primary py-6 text-lg flex items-center justify-center gap-2"
+            className="bg-accent hover:bg-accent-light text-primary py-6 text-lg flex items-center justify-center gap-2 rounded-lg shadow-md"
             onClick={() => window.location.href = 'tel:+1234567890'}
           >
             <Phone className="w-5 h-5" />
@@ -43,7 +43,7 @@ const ContactSection = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <Button 
             variant="secondary"
-            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg"
+            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg rounded-lg shadow-md"
           >
             <Camera className="w-5 h-5 mr-2" />
             Portfolio
@@ -51,7 +51,7 @@ const ContactSection = () => {
           
           <Button 
             variant="secondary"
-            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg"
+            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg rounded-lg shadow-md"
           >
             <Facebook className="w-5 h-5 mr-2" />
             References
@@ -59,7 +59,7 @@ const ContactSection = () => {
           
           <Button 
             variant="secondary"
-            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg"
+            className="bg-secondary hover:bg-accent-light text-primary px-8 py-4 text-lg rounded-lg shadow-md"
           >
             <Music className="w-5 h-5 mr-2" />
             Sample Recordings
