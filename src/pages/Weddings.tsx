@@ -34,6 +34,31 @@ const Weddings = () => {
           </span>
         </div>
       </div>
+
+      {/* About Section */}
+      <div className="bg-white text-[#8B6F47] py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-playfair text-4xl md:text-5xl mb-12">About Olivia</h2>
+          
+          <p className="text-lg md:text-xl mb-12">
+            Based in Birmingham, West Midlands, Olivia Flemming Smith is a professional wedding singer renowned 
+            for her remarkable ability to adapt to various musical styles. With her extensive song knowledge and 
+            stunning voice, she brings a unique versatility to every performance.
+          </p>
+
+          {/* Icons */}
+          <div className="flex justify-center gap-8 mb-12">
+            <span className="text-3xl">♥</span>
+            <span className="text-3xl">♪</span>
+          </div>
+
+          <p className="text-lg md:text-xl">
+            Her passion lies in weddings, finding joy in sharing her talent with couples on the happiest day of their 
+            lives. Whether performing a show or providing background music, Olivia creates a relaxed and romantic 
+            atmosphere that perfectly complements your special moments.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
