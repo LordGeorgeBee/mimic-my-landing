@@ -73,15 +73,15 @@ const Weddings = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="bg-primary/20 py-20 px-4">
+      <div className="bg-secondary py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-playfair text-4xl md:text-5xl text-text-dark text-center mb-16">
+          <h2 className="font-playfair text-4xl md:text-5xl text-primary mb-16 text-center">
             Testimonials
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Testimonial Cards */}
-            <Card className="bg-secondary shadow-lg">
+            <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
                 <p className="text-text-muted italic mb-6 text-lg leading-relaxed">
                   "Olivia's voice brought profound comfort during our difficult time. Her rendition of 'Ave Maria' was absolutely beautiful."
@@ -93,7 +93,7 @@ const Weddings = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-secondary shadow-lg">
+            <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
                 <p className="text-text-muted italic mb-6 text-lg leading-relaxed">
                   "Her performance added such dignity and grace to my mother's service. We couldn't have asked for a more perfect tribute."
@@ -105,7 +105,7 @@ const Weddings = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-secondary shadow-lg">
+            <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
                 <p className="text-text-muted italic mb-6 text-lg leading-relaxed">
                   "The musical selections were perfectly chosen and performed with such sensitivity. Olivia helped make a difficult day more bearable."
