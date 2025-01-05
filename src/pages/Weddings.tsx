@@ -73,12 +73,12 @@ const Weddings = () => {
       </div>
 
       {/* Performance Highlights Section */}
-      <div className="bg-gradient-to-b from-[#987554] to-[#E5D3B3] py-20 px-4">
+      <div className="bg-gradient-to-b from-primary to-secondary py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-[#8B6F47] text-center mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-primary text-center mb-6">
             Experience the Magic
           </h2>
-          <p className="text-lg md:text-xl mb-8 text-[#8B6F47] max-w-2xl mx-auto text-center">
+          <p className="text-lg md:text-xl mb-8 text-primary max-w-2xl mx-auto text-center">
             Watch Olivia perform and imagine how she could make your special day even more memorable.
           </p>
           
