@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Gallery from "@/components/Gallery";
+import ContactSection from "@/components/ContactSection";
 
 const Weddings = () => {
   return (
@@ -217,6 +218,9 @@ const Weddings = () => {
 
       {/* Gallery Section */}
       <Gallery />
+
+      {/* Contact Section */}
+      <ContactSection />
     </div>
   );
 };
