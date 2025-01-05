@@ -1,4 +1,11 @@
 import { Button } from "@/components/ui/button";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Weddings = () => {
   return (
@@ -57,6 +64,40 @@ const Weddings = () => {
             lives. Whether performing a show or providing background music, Olivia creates a relaxed and romantic 
             atmosphere that perfectly complements your special moments.
           </p>
+        </div>
+      </div>
+
+      {/* Performance Highlights Section */}
+      <div className="bg-[#F5F1EE] py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#8B6F47] text-center mb-12">
+            Performance Highlights
+          </h2>
+          
+          <div className="relative">
+            <Carousel className="w-full max-w-4xl mx-auto">
+              <CarouselContent>
+                <CarouselItem>
+                  {/* Placeholder for video - will be replaced later */}
+                  <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
+                    <p className="text-[#8B6F47]">Video content coming soon</p>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
+                    <p className="text-[#8B6F47]">Video content coming soon</p>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
+                    <p className="text-[#8B6F47]">Video content coming soon</p>
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious className="bg-white text-[#8B6F47] hover:bg-[#8B6F47] hover:text-white border-[#8B6F47]" />
+              <CarouselNext className="bg-white text-[#8B6F47] hover:bg-[#8B6F47] hover:text-white border-[#8B6F47]" />
+            </Carousel>
+          </div>
         </div>
       </div>
     </div>
