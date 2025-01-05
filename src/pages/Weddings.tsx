@@ -15,7 +15,7 @@ const Weddings = () => {
       <PerformanceHighlights />
 
       {/* Services Section */}
-      <div className="bg-primary-light py-20 px-4">
+      <div className="bg-secondary py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-playfair text-4xl md:text-5xl text-text-light text-center mb-16">
             Services
