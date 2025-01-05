@@ -73,7 +73,7 @@ const Weddings = () => {
       </div>
 
       {/* Performance Highlights Section */}
-      <div className="bg-[#F5F1EE] py-20 px-4">
+      <div className="bg-gradient-to-b from-[#F5F1EE] to-[#E5D3B3] py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-[#8B6F47] text-center mb-6">
             Experience the Magic
@@ -86,7 +86,6 @@ const Weddings = () => {
             <Carousel className="w-full max-w-4xl mx-auto">
               <CarouselContent>
                 <CarouselItem>
-                  {/* Placeholder for video - will be replaced later */}
                   <div className="aspect-video bg-black/20 rounded-lg flex items-center justify-center">
                     <p className="text-[#8B6F47]">Video content coming soon</p>
                   </div>
