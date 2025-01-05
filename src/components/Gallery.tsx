@@ -45,7 +45,7 @@ const Gallery = () => {
           {images.map((image, index) => (
             <div 
               key={index}
-              className="aspect-[16/9] bg-gray-100 rounded-lg overflow-hidden"
+              className="aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden"
             >
               <img 
                 src={image.src}
