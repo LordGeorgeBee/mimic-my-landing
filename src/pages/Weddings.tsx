@@ -25,11 +25,11 @@ const Weddings = () => {
           </Button>
         </div>
 
-        {/* Toggle in top right corner */}
-        <div className="absolute top-4 right-4 bg-black/40 rounded-full px-4 py-2 text-sm">
+        {/* Toggle fixed to viewport */}
+        <div className="fixed top-4 right-4 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-sm z-50">
           <span className="text-[#8B6F47]">Wedding</span>
           <span className="mx-2">|</span>
-          <span className="text-gray-400 cursor-pointer" onClick={() => window.location.href = '/funerals'}>
+          <span className="text-gray-400 cursor-pointer hover:text-gray-200 transition-colors" onClick={() => window.location.href = '/funerals'}>
             Funeral
           </span>
         </div>
